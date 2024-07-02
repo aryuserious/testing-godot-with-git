@@ -6,7 +6,28 @@
 [node name="World" type="Node2D"]
 
 [node name="NormalGuy" type="Sprite2D" parent="."]
-position = Vector2(539, 301)
+position = Vector2(381, 287)
 texture = ExtResource("1_w8roa")
 script = ExtResource("2_gku2u")
 first_name = "James"
+
+[node name="RedGuy" type="Sprite2D" parent="."]
+position = Vector2(579, 191)
+texture = ExtResource("1_w8roa")
+script = ExtResource("2_gku2u")
+color = 1
+first_name = "Veronica"
+
+[node name="GreenGuy" type="Sprite2D" parent="."]
+position = Vector2(579, 413)
+texture = ExtResource("1_w8roa")
+script = ExtResource("2_gku2u")
+color = 2
+first_name = "Peter"
+
+[node name="NormalGuy2" type="Sprite2D" parent="."]
+position = Vector2(771, 287)
+texture = ExtResource("1_w8roa")
+script = ExtResource("2_gku2u")
+color = 3
+first_name = "Bertha"
