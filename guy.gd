@@ -10,8 +10,11 @@ enum color_options {
 }
 
 @export var color : color_options
-
 var color_string
+
+@export var first_name : String
+var greeting = "Hello. My name is "
+
 
 func _ready():
     match color:
@@ -29,6 +32,6 @@ func _ready():
             color_string = "blue"
 
     if color != color_options.NONE:
-        print("I am the color ", color_string, "!")
+        print(greeting, first_name, " and I am the color ", color_string, "!")
     else:
-        print("I don't have a color")
+        print(greeting, first_name, " and I don't have a color")
