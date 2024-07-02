@@ -12,7 +12,7 @@ enum color_options {
 @export var color : color_options
 var color_string
 
-@export var first_name : String
+@export var first_name : String = "Name"
 var greeting = "Hello. My name is "
 
 
