@@ -9,4 +9,3 @@
 position = Vector2(539, 301)
 texture = ExtResource("1_w8roa")
 script = ExtResource("2_gku2u")
-color = 2
